@@ -1,0 +1,55 @@
+{
+  "name": "naukri-avsar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite serve",
+    "build": "vite build",
+    "lint": "vite list"
+  },
+  "dependencies": {
+    "@mdi/font": "7.4.47",
+    "vue": "3.2.45",
+    "vuetify": "3.7.5",
+    "webfontloader": "1.6.28"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "5.2.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "typescript": "5.6.3",
+    "typescript-eslint": "^8.15.0",
+    "vite": "6.0.3",
+    "vite-plugin-commonjs-externals": "^0.1.4",
+    "vite-plugin-node-polyfills": "^0.22.0",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue-tsc": "2.1.6"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "keywords": [],
+  "description": "",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
